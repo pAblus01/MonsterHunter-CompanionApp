@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/consultaFragment"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/consulta_tab" />
+
+    <item
+        android:id="@+id/setsFragment"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/sets_tab" />
+
+    <item
+        android:id="@+id/camaraFragment"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/camara_tab" />
+</menu>

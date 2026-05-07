@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/consultaFragment">
+
+    <fragment
+        android:id="@+id/consultaFragment"
+        android:name="com.tfg.mhwcompanion.feature.consulta.ConsultaFragment"
+        android:label="@string/consulta_tab" />
+
+    <fragment
+        android:id="@+id/setsFragment"
+        android:name="com.tfg.mhwcompanion.feature.sets.SetsFragment"
+        android:label="@string/sets_tab" />
+
+    <fragment
+        android:id="@+id/camaraFragment"
+        android:name="com.tfg.mhwcompanion.feature.camara.CamaraFragment"
+        android:label="@string/camara_tab" />
+
+</navigation>

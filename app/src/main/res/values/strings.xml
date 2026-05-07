@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MHW Companion</string>
+    <string name="consulta_tab">Consulta</string>
+    <string name="sets_tab">Sets</string>
+    <string name="camara_tab">Camara</string>
+    <string name="consulta_title">Consulta de armaduras</string>
+    <string name="consulta_description">Explora piezas de armadura y prepara la futura integración con la API pública.</string>
+    <string name="sets_title">Constructor de sets</string>
+    <string name="sets_description">Organiza combinaciones de piezas y guarda sets para distintas builds.</string>
+    <string name="camara_title">Detección por cámara</string>
+    <string name="camara_description">Reserva este apartado para el flujo de foto y reconocimiento del modelo.</string>
+    <string name="armor_rarity_format">R%1$d</string>
+</resources>
