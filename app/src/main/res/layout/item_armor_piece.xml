@@ -46,6 +46,28 @@
                 android:layout_marginTop="6dp"
                 android:textAppearance="@style/TextAppearance.MhwCompanion.Body"
                 android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:id="@+id/armor_skills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:maxLines="2"
+                android:textAppearance="@style/TextAppearance.MhwCompanion.Caption"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:id="@+id/armor_slots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_rarity_pill"
+                android:paddingLeft="10dp"
+                android:paddingTop="4dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="4dp"
+                android:textAppearance="@style/TextAppearance.MhwCompanion.Caption"
+                android:textColor="@color/primary_amber_dark" />
         </LinearLayout>
 
         <TextView

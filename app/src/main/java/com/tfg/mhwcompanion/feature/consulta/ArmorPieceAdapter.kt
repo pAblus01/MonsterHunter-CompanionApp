@@ -32,11 +32,23 @@ class ArmorPieceAdapter(
 
         fun bind(item: ArmorPiece) {
             binding.armorName.text = item.name
-            binding.armorType.text = item.type
-            binding.armorRank.text = item.rank
+            binding.armorType.text = item.type.take(1).uppercase()
+            binding.armorRank.text = itemView.context.getString(
+                R.string.armor_rank_summary,
+                item.rank,
+                item.defense,
+                item.setName.ifBlank { itemView.context.getString(R.string.armor_set_unknown) }
+            )
             binding.armorRarity.text = itemView.context.getString(
                 R.string.armor_rarity_format,
                 item.rarity
+            )
+            binding.armorSkills.text = item.skillSummary.ifBlank {
+                itemView.context.getString(R.string.armor_skills_empty)
+            }
+            binding.armorSlots.text = itemView.context.getString(
+                R.string.armor_slots_summary,
+                item.slots.ifEmpty { listOf(0) }.joinToString(separator = " · ")
             )
         }
     }
