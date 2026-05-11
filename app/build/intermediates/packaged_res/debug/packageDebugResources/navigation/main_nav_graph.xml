@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/consultaFragment">
+
+    <fragment
+        android:id="@+id/consultaFragment"
+        android:name="com.tfg.mhwcompanion.feature.consulta.ConsultaFragment"
+        android:label="@string/consulta_tab" />
+
+    <fragment
+        android:id="@+id/setsFragment"
+        android:name="com.tfg.mhwcompanion.feature.sets.SetsFragment"
+        android:label="@string/sets_tab">
+
+        <action
+            android:id="@+id/action_setsFragment_to_setDetailFragment"
+            app:destination="@id/setDetailFragment" />
+
+        <action
+            android:id="@+id/action_setsFragment_to_favoriteSetDetailFragment"
+            app:destination="@id/favoriteSetDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/setDetailFragment"
+        android:name="com.tfg.mhwcompanion.feature.sets.SetDetailFragment"
+        android:label="@string/set_detail_title">
+
+        <argument
+            android:name="setName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoriteSetDetailFragment"
+        android:name="com.tfg.mhwcompanion.feature.sets.FavoriteSetDetailFragment"
+        android:label="@string/favorite_detail_title">
+
+        <argument
+            android:name="favoriteName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/camaraFragment"
+        android:name="com.tfg.mhwcompanion.feature.camara.CamaraFragment"
+        android:label="@string/camara_tab" />
+
+</navigation>

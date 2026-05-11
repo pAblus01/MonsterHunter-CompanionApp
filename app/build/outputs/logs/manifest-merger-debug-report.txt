@@ -1,0 +1,358 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\terra\.gradle\caches\transforms-4\32724832007764ecd4346552dfab7fab\transformed\viewbinding-8.5.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\158aa1a887df10302e926190a5387078\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\493b6ed84247f72c07e12e8065c29ffb\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\f3d1726c9cce6c0bfadb6a8e7e90e0b7\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\e6bf44c9c028738f7aeab2252dcb4bd9\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\71b22f3e3edfff5984b1950290374608\transformed\navigation-fragment-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\666147d81ddc739badf9a6adc6549c10\transformed\navigation-fragment-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\8c7d711f05e0739050637372d54f9990\transformed\navigation-ui-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\4e05918dc37430b422a0e2786590ee15\transformed\navigation-ui-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\terra\.gradle\caches\transforms-4\2c5f99f11ed04d26a33e482b390068ab\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\terra\.gradle\caches\transforms-4\595e50ddf208d78311e063a27198c0ce\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\terra\.gradle\caches\transforms-4\a34c659536066715524591083354d50e\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\terra\.gradle\caches\transforms-4\7f5e5929d57b26d686cb2ea8c9b30e5f\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\4f62d349a7d44f808b672fe5083fb184\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.8.2] C:\Users\terra\.gradle\caches\transforms-4\ce68d7e0597aaec29de01482bdc20848\transformed\fragment-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.8.2] C:\Users\terra\.gradle\caches\transforms-4\39a5ff9676db1a8f0db53e532e70cf64\transformed\fragment-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\2a004876cf72cd2885ac7eb9946764fd\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\b9492d6f630c1c4b850e142dd206d37b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\f2c9b5a009252f22748f46af818e1321\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\terra\.gradle\caches\transforms-4\e2462e3d2defd3f4171154368c858088\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\terra\.gradle\caches\transforms-4\c72e08ea45c1b36225c11c262daad60a\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\6c4eb1f097d74d1a44af1b1b27482b1e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\202729225a96b49c0aed7b727c236082\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\7ce881afc56d3916d710f6511fc89fb3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\49e97524572926052ae2c81f78212e63\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ac3673e1b4df24a858c8214efbbdd7d3\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\1df10532023f448016136799aceb37e1\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\5b927f0776a0b6b5d59c6c5fafef84b6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.1] C:\Users\terra\.gradle\caches\transforms-4\a5f55c64e0c608a2c075f1b08b568d1b\transformed\activity-ktx-1.8.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\terra\.gradle\caches\transforms-4\1e1278dabb556202457cb85d2792ccb2\transformed\activity-1.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\096cc7f86f2bfbd227d16c4db4e2dd8b\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ddc5fcb94a6fedf1d0e5258f37fa6580\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\terra\.gradle\caches\transforms-4\ddcede0a5a78fc4ab0954a15b946bb10\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\terra\.gradle\caches\transforms-4\d708b82d6e872613726b077497cbb952\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\fce79e5eb70973ba98ad528575355ac5\transformed\lifecycle-livedata-2.8.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\dff8d94522d771836008f024b0682a12\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\4f9f199bebdb8461dbdf1b3deb435577\transformed\lifecycle-viewmodel-2.8.4\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\3cf6f6b83ac4919dcaf411c422fabc79\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\5c83031ecdc8b19aa452daaed8298657\transformed\lifecycle-livedata-core-2.8.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\a68e294a628215affc2abde943d7b05b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\3009ab0309a17b64594d2c242bcdd6b0\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\6b5cb588eb1ecb72dadeadce6235d6a7\transformed\lifecycle-livedata-core-ktx-2.8.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\066588b4b8ae9da9340e4b6c642a7c16\transformed\lifecycle-viewmodel-ktx-2.8.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\552a1876179b6b3cc9525c6e68aba589\transformed\lifecycle-viewmodel-savedstate-2.8.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\f25d258ef0389b0cd34b163812030891\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\terra\.gradle\caches\transforms-4\47492c9a845b2f810b0ae6ffe40ef057\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\552a5ef2034ea983819680082e358fa9\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\6fd874bad3f880df8a06fc758c6db467\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\f938d9471effb08ce5bde8fea680cb45\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\c02156e39cbfe4bc394ad70a95ae9ddb\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\7b0f4dfacd5b075f3a90467659a3c598\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\8f71ca3e44ca997e00d63bee19475439\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\fab1ff0047d6b5a128f06d276823e90c\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\de2fbb9f88dc63f1b4b2d3d7fdf8256d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\317199b138d8bad1d1b7bef63ebe0810\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\terra\.gradle\caches\transforms-4\2d60a1eef7b5d3f4004f2c42ca73ddc8\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:6:5-22:19
+INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:6:5-22:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\terra\.gradle\caches\transforms-4\2c5f99f11ed04d26a33e482b390068ab\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\terra\.gradle\caches\transforms-4\2c5f99f11ed04d26a33e482b390068ab\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\terra\.gradle\caches\transforms-4\595e50ddf208d78311e063a27198c0ce\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\terra\.gradle\caches\transforms-4\595e50ddf208d78311e063a27198c0ce\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ddc5fcb94a6fedf1d0e5258f37fa6580\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ddc5fcb94a6fedf1d0e5258f37fa6580\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\a68e294a628215affc2abde943d7b05b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\a68e294a628215affc2abde943d7b05b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\c02156e39cbfe4bc394ad70a95ae9ddb\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\c02156e39cbfe4bc394ad70a95ae9ddb\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\7b0f4dfacd5b075f3a90467659a3c598\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\7b0f4dfacd5b075f3a90467659a3c598\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:12:9-50
+activity#com.tfg.mhwcompanion.MainActivity
+ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:13:9-21:20
+	android:exported
+		ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:14:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\terra\.gradle\caches\transforms-4\32724832007764ecd4346552dfab7fab\transformed\viewbinding-8.5.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\terra\.gradle\caches\transforms-4\32724832007764ecd4346552dfab7fab\transformed\viewbinding-8.5.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\158aa1a887df10302e926190a5387078\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\158aa1a887df10302e926190a5387078\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\493b6ed84247f72c07e12e8065c29ffb\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\493b6ed84247f72c07e12e8065c29ffb\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\f3d1726c9cce6c0bfadb6a8e7e90e0b7\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\f3d1726c9cce6c0bfadb6a8e7e90e0b7\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\e6bf44c9c028738f7aeab2252dcb4bd9\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\e6bf44c9c028738f7aeab2252dcb4bd9\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\71b22f3e3edfff5984b1950290374608\transformed\navigation-fragment-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\71b22f3e3edfff5984b1950290374608\transformed\navigation-fragment-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\666147d81ddc739badf9a6adc6549c10\transformed\navigation-fragment-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\666147d81ddc739badf9a6adc6549c10\transformed\navigation-fragment-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\8c7d711f05e0739050637372d54f9990\transformed\navigation-ui-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\8c7d711f05e0739050637372d54f9990\transformed\navigation-ui-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\4e05918dc37430b422a0e2786590ee15\transformed\navigation-ui-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\terra\.gradle\caches\transforms-4\4e05918dc37430b422a0e2786590ee15\transformed\navigation-ui-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\terra\.gradle\caches\transforms-4\2c5f99f11ed04d26a33e482b390068ab\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\terra\.gradle\caches\transforms-4\2c5f99f11ed04d26a33e482b390068ab\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\terra\.gradle\caches\transforms-4\595e50ddf208d78311e063a27198c0ce\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\terra\.gradle\caches\transforms-4\595e50ddf208d78311e063a27198c0ce\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\terra\.gradle\caches\transforms-4\a34c659536066715524591083354d50e\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\terra\.gradle\caches\transforms-4\a34c659536066715524591083354d50e\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\terra\.gradle\caches\transforms-4\7f5e5929d57b26d686cb2ea8c9b30e5f\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\terra\.gradle\caches\transforms-4\7f5e5929d57b26d686cb2ea8c9b30e5f\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\4f62d349a7d44f808b672fe5083fb184\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\4f62d349a7d44f808b672fe5083fb184\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.8.2] C:\Users\terra\.gradle\caches\transforms-4\ce68d7e0597aaec29de01482bdc20848\transformed\fragment-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.2] C:\Users\terra\.gradle\caches\transforms-4\ce68d7e0597aaec29de01482bdc20848\transformed\fragment-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.2] C:\Users\terra\.gradle\caches\transforms-4\39a5ff9676db1a8f0db53e532e70cf64\transformed\fragment-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.2] C:\Users\terra\.gradle\caches\transforms-4\39a5ff9676db1a8f0db53e532e70cf64\transformed\fragment-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\2a004876cf72cd2885ac7eb9946764fd\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\2a004876cf72cd2885ac7eb9946764fd\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\b9492d6f630c1c4b850e142dd206d37b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\b9492d6f630c1c4b850e142dd206d37b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\f2c9b5a009252f22748f46af818e1321\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\f2c9b5a009252f22748f46af818e1321\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\terra\.gradle\caches\transforms-4\e2462e3d2defd3f4171154368c858088\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\terra\.gradle\caches\transforms-4\e2462e3d2defd3f4171154368c858088\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\terra\.gradle\caches\transforms-4\c72e08ea45c1b36225c11c262daad60a\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\terra\.gradle\caches\transforms-4\c72e08ea45c1b36225c11c262daad60a\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\6c4eb1f097d74d1a44af1b1b27482b1e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\6c4eb1f097d74d1a44af1b1b27482b1e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\202729225a96b49c0aed7b727c236082\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\202729225a96b49c0aed7b727c236082\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\7ce881afc56d3916d710f6511fc89fb3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\7ce881afc56d3916d710f6511fc89fb3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\49e97524572926052ae2c81f78212e63\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\49e97524572926052ae2c81f78212e63\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ac3673e1b4df24a858c8214efbbdd7d3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ac3673e1b4df24a858c8214efbbdd7d3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\1df10532023f448016136799aceb37e1\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\terra\.gradle\caches\transforms-4\1df10532023f448016136799aceb37e1\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\5b927f0776a0b6b5d59c6c5fafef84b6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\5b927f0776a0b6b5d59c6c5fafef84b6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] C:\Users\terra\.gradle\caches\transforms-4\a5f55c64e0c608a2c075f1b08b568d1b\transformed\activity-ktx-1.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] C:\Users\terra\.gradle\caches\transforms-4\a5f55c64e0c608a2c075f1b08b568d1b\transformed\activity-ktx-1.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\terra\.gradle\caches\transforms-4\1e1278dabb556202457cb85d2792ccb2\transformed\activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\terra\.gradle\caches\transforms-4\1e1278dabb556202457cb85d2792ccb2\transformed\activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\096cc7f86f2bfbd227d16c4db4e2dd8b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\096cc7f86f2bfbd227d16c4db4e2dd8b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ddc5fcb94a6fedf1d0e5258f37fa6580\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ddc5fcb94a6fedf1d0e5258f37fa6580\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\terra\.gradle\caches\transforms-4\ddcede0a5a78fc4ab0954a15b946bb10\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\terra\.gradle\caches\transforms-4\ddcede0a5a78fc4ab0954a15b946bb10\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\terra\.gradle\caches\transforms-4\d708b82d6e872613726b077497cbb952\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\terra\.gradle\caches\transforms-4\d708b82d6e872613726b077497cbb952\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\fce79e5eb70973ba98ad528575355ac5\transformed\lifecycle-livedata-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\fce79e5eb70973ba98ad528575355ac5\transformed\lifecycle-livedata-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\dff8d94522d771836008f024b0682a12\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\dff8d94522d771836008f024b0682a12\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\4f9f199bebdb8461dbdf1b3deb435577\transformed\lifecycle-viewmodel-2.8.4\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\4f9f199bebdb8461dbdf1b3deb435577\transformed\lifecycle-viewmodel-2.8.4\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\3cf6f6b83ac4919dcaf411c422fabc79\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\3cf6f6b83ac4919dcaf411c422fabc79\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\5c83031ecdc8b19aa452daaed8298657\transformed\lifecycle-livedata-core-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\5c83031ecdc8b19aa452daaed8298657\transformed\lifecycle-livedata-core-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\a68e294a628215affc2abde943d7b05b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\a68e294a628215affc2abde943d7b05b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\3009ab0309a17b64594d2c242bcdd6b0\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\3009ab0309a17b64594d2c242bcdd6b0\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\6b5cb588eb1ecb72dadeadce6235d6a7\transformed\lifecycle-livedata-core-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\6b5cb588eb1ecb72dadeadce6235d6a7\transformed\lifecycle-livedata-core-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\066588b4b8ae9da9340e4b6c642a7c16\transformed\lifecycle-viewmodel-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\066588b4b8ae9da9340e4b6c642a7c16\transformed\lifecycle-viewmodel-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\552a1876179b6b3cc9525c6e68aba589\transformed\lifecycle-viewmodel-savedstate-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\552a1876179b6b3cc9525c6e68aba589\transformed\lifecycle-viewmodel-savedstate-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\f25d258ef0389b0cd34b163812030891\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\f25d258ef0389b0cd34b163812030891\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\terra\.gradle\caches\transforms-4\47492c9a845b2f810b0ae6ffe40ef057\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\terra\.gradle\caches\transforms-4\47492c9a845b2f810b0ae6ffe40ef057\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\552a5ef2034ea983819680082e358fa9\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\552a5ef2034ea983819680082e358fa9\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\6fd874bad3f880df8a06fc758c6db467\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\6fd874bad3f880df8a06fc758c6db467\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\f938d9471effb08ce5bde8fea680cb45\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\f938d9471effb08ce5bde8fea680cb45\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\c02156e39cbfe4bc394ad70a95ae9ddb\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\c02156e39cbfe4bc394ad70a95ae9ddb\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\7b0f4dfacd5b075f3a90467659a3c598\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\7b0f4dfacd5b075f3a90467659a3c598\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\8f71ca3e44ca997e00d63bee19475439\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\8f71ca3e44ca997e00d63bee19475439\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\fab1ff0047d6b5a128f06d276823e90c\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\fab1ff0047d6b5a128f06d276823e90c\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\de2fbb9f88dc63f1b4b2d3d7fdf8256d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\de2fbb9f88dc63f1b4b2d3d7fdf8256d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\317199b138d8bad1d1b7bef63ebe0810\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\317199b138d8bad1d1b7bef63ebe0810\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\terra\.gradle\caches\transforms-4\2d60a1eef7b5d3f4004f2c42ca73ddc8\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\terra\.gradle\caches\transforms-4\2d60a1eef7b5d3f4004f2c42ca73ddc8\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\a68e294a628215affc2abde943d7b05b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\a68e294a628215affc2abde943d7b05b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\7b0f4dfacd5b075f3a90467659a3c598\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\terra\.gradle\caches\transforms-4\7b0f4dfacd5b075f3a90467659a3c598\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\terra\.gradle\caches\transforms-4\f5a83ae01909d0250386621db700b13b\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ddc5fcb94a6fedf1d0e5258f37fa6580\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ddc5fcb94a6fedf1d0e5258f37fa6580\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ddc5fcb94a6fedf1d0e5258f37fa6580\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ddc5fcb94a6fedf1d0e5258f37fa6580\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ddc5fcb94a6fedf1d0e5258f37fa6580\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\terra\.gradle\caches\transforms-4\ddc5fcb94a6fedf1d0e5258f37fa6580\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.tfg.mhwcompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.tfg.mhwcompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\terra\.gradle\caches\transforms-4\534a96d8ad1fecf80dd4379ac44efdd0\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\a68e294a628215affc2abde943d7b05b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\a68e294a628215affc2abde943d7b05b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\terra\.gradle\caches\transforms-4\a68e294a628215affc2abde943d7b05b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\terra\.gradle\caches\transforms-4\b3a0fa5e30706cd384d594955aa3d29f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
