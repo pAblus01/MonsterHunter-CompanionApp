@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.tfg.mhwcompanion.app-mergeDebugResources-45:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.tfg.mhwcompanion.app-mergeDebugResources-51:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\terra\\.gradle\\caches\\transforms-4\\2c5f99f11ed04d26a33e482b390068ab\\transformed\\material-1.12.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",

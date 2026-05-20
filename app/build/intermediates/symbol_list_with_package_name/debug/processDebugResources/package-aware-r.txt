@@ -665,6 +665,7 @@ attr imagePanX
 attr imagePanY
 attr imageRotate
 attr imageZoom
+attr implementationMode
 attr indeterminateAnimationType
 attr indeterminateProgressStyle
 attr indicatorColor
@@ -1045,6 +1046,7 @@ attr roundPercent
 attr route
 attr saturation
 attr scaleFromTextSize
+attr scaleType
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -3268,7 +3270,9 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id camaraFragment
+id camera_preview
 id cancel_button
+id capture_button
 id carryVelocity
 id center
 id centerCrop
@@ -3289,6 +3293,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id compatible
 id compress
 id confirm_button
 id constraint
@@ -3348,6 +3353,7 @@ id edit_query
 id edit_text_id
 id elastic
 id embed
+id empty_results_text
 id empty_state_text
 id end
 id endToStart
@@ -3368,6 +3374,9 @@ id favorite_sets_recycler_view
 id favorite_skills
 id favorite_title
 id fill
+id fillCenter
+id fillEnd
+id fillStart
 id fill_horizontal
 id fill_vertical
 id filled
@@ -3383,6 +3392,7 @@ id forever
 id fragment_container_view_tag
 id frost
 id fullscreen_header
+id gallery_button
 id ghost_view
 id ghost_view_holder
 id gone
@@ -3542,11 +3552,14 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id performance
+id permission_hint
 id pieces_recycler_view
 id pin
 id position
 id postLayout
 id pressed
+id preview_image
 id progress_bar
 id progress_circular
 id progress_horizontal
@@ -3554,6 +3567,7 @@ id radio
 id ratio
 id rectangles
 id report_drawn
+id results_recycler_view
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3609,6 +3623,11 @@ id skipped
 id slide
 id sliding_pane_detail_container
 id sliding_pane_layout
+id slot_alternatives
+id slot_meta
+id slot_primary
+id slot_set
+id slot_title
 id snackbar_action
 id snackbar_text
 id snap
@@ -3632,6 +3651,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status_text
 id stop
 id stretch
 id submenuarrow
@@ -3851,6 +3871,7 @@ layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_armor_piece
 layout item_armor_set_summary
+layout item_camera_detection
 layout item_favorite_set
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3966,7 +3987,16 @@ string call_notification_hang_up_action
 string call_notification_incoming_text
 string call_notification_ongoing_text
 string call_notification_screening_text
+string camara_capture_button
 string camara_description
+string camara_gallery_button
+string camara_no_alternatives
+string camara_permission_hint
+string camara_preview_image
+string camara_ready
+string camara_result_class
+string camara_result_meta
+string camara_results_empty
 string camara_tab
 string camara_title
 string character_counter_content_description
@@ -5388,6 +5418,7 @@ styleable OnClick clickAction targetId
 styleable OnSwipe autoCompleteMode dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp rotationCenterId springBoundary springDamping springMass springStiffness springStopThreshold touchAnchorId touchAnchorSide touchRegionId
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
+styleable PreviewView implementationMode scaleType
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values
@@ -5433,3 +5464,4 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml file_paths

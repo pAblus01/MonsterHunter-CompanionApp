@@ -128,7 +128,7 @@ class CamaraFragment : Fragment() {
         cameraProviderFuture.addListener({
             val cameraProvider = cameraProviderFuture.get()
             val preview = androidx.camera.core.Preview.Builder().build().also {
-                it.surfaceProvider = binding.cameraPreview.surfaceProvider
+                it.setSurfaceProvider(binding.cameraPreview.surfaceProvider)
             }
             imageCapture = ImageCapture.Builder().build()
 
@@ -180,4 +180,3 @@ class CamaraFragment : Fragment() {
         super.onDestroyView()
     }
 }
-

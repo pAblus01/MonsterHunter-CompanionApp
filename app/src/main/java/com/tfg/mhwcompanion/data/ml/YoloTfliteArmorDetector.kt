@@ -6,9 +6,9 @@ import android.graphics.RectF
 import org.tensorflow.lite.DataType
 import org.tensorflow.lite.Interpreter
 import org.tensorflow.lite.support.common.FileUtil
+import org.tensorflow.lite.support.common.ops.NormalizeOp
 import org.tensorflow.lite.support.image.ImageProcessor
 import org.tensorflow.lite.support.image.TensorImage
-import org.tensorflow.lite.support.image.ops.NormalizeOp
 import org.tensorflow.lite.support.image.ops.ResizeOp
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
 import kotlin.math.max
@@ -79,6 +79,7 @@ class YoloTfliteArmorDetector(context: Context) {
 
     private fun decodeOutput(
         values: FloatArray,
+        outputShape: IntArray,
         originalWidth: Int,
         originalHeight: Int,
         confidenceThreshold: Float
@@ -86,7 +87,8 @@ class YoloTfliteArmorDetector(context: Context) {
         if (values.size < 5) return emptyList()
 
         val results = mutableListOf<DetectionCandidate>()
-        val rowCount = 8400
+        // Assuming YOLOv8 output: [1, 84, 8400]
+        val rowCount = if (outputShape.size >= 3) outputShape[2] else 8400
 
         for (rowIndex in 0 until rowCount) {
             val xCenter = values[rowIndex]
@@ -99,7 +101,7 @@ class YoloTfliteArmorDetector(context: Context) {
 
             val parsed = labelForIndex(0)
             val bbox = decodeCenterBox(xCenter, yCenter, width, height, originalWidth, originalHeight)
-            results += DetectionCandidate(parsed.armorId, parsed.displayName, score, bbox)
+            results += DetectionCandidate(parsed.armorId ?: 0, parsed.displayName, score, bbox)
         }
 
         return results

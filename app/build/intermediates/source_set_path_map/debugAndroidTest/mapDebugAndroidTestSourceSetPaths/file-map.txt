@@ -1,0 +1,5 @@
+com.tfg.mhwcompanion.test.app-core-1.6.1-0 C:\Users\terra\.gradle\caches\transforms-4\ce8dfc7e8a6dc8c44ac7ae52c9861162\transformed\core-1.6.1\res
+com.tfg.mhwcompanion.test.app-androidTest-1 C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\build\generated\res\resValues\androidTest\debug
+com.tfg.mhwcompanion.test.app-mergeDebugAndroidTestResources-2 C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.tfg.mhwcompanion.test.app-mergeDebugAndroidTestResources-3 C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.tfg.mhwcompanion.test.app-debugAndroidTest-4 C:\Users\terra\Documents\GitHub\MonsterHunter-CompanionApp\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

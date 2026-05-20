@@ -4,12 +4,17 @@ package com.tfg.mhwcompanion.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.camera.view.PreviewView;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.material.button.MaterialButton;
 import com.tfg.mhwcompanion.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -20,16 +25,56 @@ public final class FragmentCamaraBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
+  public final PreviewView cameraPreview;
+
+  @NonNull
+  public final MaterialButton captureButton;
+
+  @NonNull
+  public final TextView emptyResultsText;
+
+  @NonNull
+  public final MaterialButton galleryButton;
+
+  @NonNull
+  public final TextView permissionHint;
+
+  @NonNull
+  public final ImageView previewImage;
+
+  @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
+  public final RecyclerView resultsRecyclerView;
+
+  @NonNull
   public final TextView sectionDescription;
 
   @NonNull
   public final TextView sectionTitle;
 
-  private FragmentCamaraBinding(@NonNull ScrollView rootView, @NonNull TextView sectionDescription,
-      @NonNull TextView sectionTitle) {
+  @NonNull
+  public final TextView statusText;
+
+  private FragmentCamaraBinding(@NonNull ScrollView rootView, @NonNull PreviewView cameraPreview,
+      @NonNull MaterialButton captureButton, @NonNull TextView emptyResultsText,
+      @NonNull MaterialButton galleryButton, @NonNull TextView permissionHint,
+      @NonNull ImageView previewImage, @NonNull ProgressBar progressBar,
+      @NonNull RecyclerView resultsRecyclerView, @NonNull TextView sectionDescription,
+      @NonNull TextView sectionTitle, @NonNull TextView statusText) {
     this.rootView = rootView;
+    this.cameraPreview = cameraPreview;
+    this.captureButton = captureButton;
+    this.emptyResultsText = emptyResultsText;
+    this.galleryButton = galleryButton;
+    this.permissionHint = permissionHint;
+    this.previewImage = previewImage;
+    this.progressBar = progressBar;
+    this.resultsRecyclerView = resultsRecyclerView;
     this.sectionDescription = sectionDescription;
     this.sectionTitle = sectionTitle;
+    this.statusText = statusText;
   }
 
   @Override
@@ -59,6 +104,54 @@ public final class FragmentCamaraBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.camera_preview;
+      PreviewView cameraPreview = ViewBindings.findChildViewById(rootView, id);
+      if (cameraPreview == null) {
+        break missingId;
+      }
+
+      id = R.id.capture_button;
+      MaterialButton captureButton = ViewBindings.findChildViewById(rootView, id);
+      if (captureButton == null) {
+        break missingId;
+      }
+
+      id = R.id.empty_results_text;
+      TextView emptyResultsText = ViewBindings.findChildViewById(rootView, id);
+      if (emptyResultsText == null) {
+        break missingId;
+      }
+
+      id = R.id.gallery_button;
+      MaterialButton galleryButton = ViewBindings.findChildViewById(rootView, id);
+      if (galleryButton == null) {
+        break missingId;
+      }
+
+      id = R.id.permission_hint;
+      TextView permissionHint = ViewBindings.findChildViewById(rootView, id);
+      if (permissionHint == null) {
+        break missingId;
+      }
+
+      id = R.id.preview_image;
+      ImageView previewImage = ViewBindings.findChildViewById(rootView, id);
+      if (previewImage == null) {
+        break missingId;
+      }
+
+      id = R.id.progress_bar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
+      id = R.id.results_recycler_view;
+      RecyclerView resultsRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (resultsRecyclerView == null) {
+        break missingId;
+      }
+
       id = R.id.section_description;
       TextView sectionDescription = ViewBindings.findChildViewById(rootView, id);
       if (sectionDescription == null) {
@@ -71,7 +164,15 @@ public final class FragmentCamaraBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentCamaraBinding((ScrollView) rootView, sectionDescription, sectionTitle);
+      id = R.id.status_text;
+      TextView statusText = ViewBindings.findChildViewById(rootView, id);
+      if (statusText == null) {
+        break missingId;
+      }
+
+      return new FragmentCamaraBinding((ScrollView) rootView, cameraPreview, captureButton,
+          emptyResultsText, galleryButton, permissionHint, previewImage, progressBar,
+          resultsRecyclerView, sectionDescription, sectionTitle, statusText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -27,7 +27,7 @@ class FavoriteSetDetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val args = FavoriteSetDetailFragmentArgs.fromBundle(requireArguments())
+        val args =  FavoriteSetDetailFragmentArgs.fromBundle(requireArguments())
         val favorite = LocalFavoriteSetStore(requireContext()).getFavorites()
             .firstOrNull { it.name == args.favoriteName }
 

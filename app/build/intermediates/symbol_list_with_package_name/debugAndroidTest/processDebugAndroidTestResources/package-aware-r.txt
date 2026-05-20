@@ -1,0 +1,3 @@
+com.tfg.mhwcompanion.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

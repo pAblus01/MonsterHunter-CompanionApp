@@ -1,82 +1,90 @@
 [
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_fragment_favorite_set_detail.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_favorite_set_detail.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_item_armor_piece.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/item_armor_piece.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/layout_activity_main.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/activity_main.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_fragment_sets.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_sets.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/layout_item_armor_set_summary.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/item_armor_set_summary.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/menu/bottom_nav_menu.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/xml_backup_rules.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/xml/backup_rules.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_fragment_consulta.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_consulta.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/color_bottom_nav_colors.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/color/bottom_nav_colors.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_item_favorite_set.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/item_favorite_set.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/xml_data_extraction_rules.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/xml/data_extraction_rules.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/color_bottom_nav_colors.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/color/bottom_nav_colors.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/drawable_bg_rarity_pill.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/drawable/bg_rarity_pill.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/layout_fragment_set_detail.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/fragment_set_detail.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_item_camera_detection.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/item_camera_detection.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/menu/bottom_nav_menu.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_item_armor_set_summary.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/item_armor_set_summary.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/layout_fragment_favorite_set_detail.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/fragment_favorite_set_detail.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/layout_fragment_consulta.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/fragment_consulta.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/drawable_bg_rarity_pill.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/drawable/bg_rarity_pill.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/drawable_bg_armor_type_chip.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/drawable/bg_armor_type_chip.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/layout_fragment_camara.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/fragment_camara.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_fragment_camara.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_camara.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/drawable/ic_launcher_background.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/drawable_bg_armor_type_chip.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/drawable/bg_armor_type_chip.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/navigation_main_nav_graph.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/navigation/main_nav_graph.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_activity_main.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/activity_main.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/layout_item_armor_piece.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/item_armor_piece.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/xml_data_extraction_rules.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/layout_fragment_sets.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/fragment_sets.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/xml_file_paths.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/xml/file_paths.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-47:/layout_item_favorite_set.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/item_favorite_set.xml"
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/xml_backup_rules.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_fragment_set_detail.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_set_detail.xml"
+    },
+    {
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/navigation_main_nav_graph.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/navigation/main_nav_graph.xml"
     }
 ]

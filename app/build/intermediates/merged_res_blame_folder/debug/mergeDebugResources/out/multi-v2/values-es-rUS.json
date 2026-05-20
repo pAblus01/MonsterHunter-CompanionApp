@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.tfg.mhwcompanion.app-mergeDebugResources-45:/values-es-rUS/values-es-rUS.xml",
+            "outputFile": "com.tfg.mhwcompanion.app-mergeDebugResources-51:/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
                     "source": "C:\\Users\\terra\\.gradle\\caches\\transforms-4\\4e05918dc37430b422a0e2786590ee15\\transformed\\navigation-ui-2.7.7\\res\\values-es-rUS\\values-es-rUS.xml",

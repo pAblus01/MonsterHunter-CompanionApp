@@ -1,0 +1,2 @@
+com.tfg.mhwcompanion.test:style/WhiteBackgroundTheme = 0x7f010001
+com.tfg.mhwcompanion.test:style/WhiteBackgroundDialogTheme = 0x7f010000

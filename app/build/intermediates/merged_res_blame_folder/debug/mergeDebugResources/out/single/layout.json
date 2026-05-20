@@ -1,38 +1,42 @@
 [
     {
-        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-46:/layout/fragment_favorite_set_detail.xml",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/fragment_favorite_set_detail.xml"
+        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/fragment_set_detail.xml",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_set_detail.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-46:/layout/fragment_consulta.xml",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/fragment_consulta.xml"
+        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/fragment_consulta.xml",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_consulta.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-46:/layout/item_favorite_set.xml",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/item_favorite_set.xml"
+        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/fragment_camara.xml",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_camara.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-46:/layout/item_armor_piece.xml",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/item_armor_piece.xml"
+        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/item_armor_set_summary.xml",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/item_armor_set_summary.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-46:/layout/activity_main.xml",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/activity_main.xml"
+        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/fragment_sets.xml",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_sets.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-46:/layout/item_armor_set_summary.xml",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/item_armor_set_summary.xml"
+        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/item_armor_piece.xml",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/item_armor_piece.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-46:/layout/fragment_sets.xml",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/fragment_sets.xml"
+        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/activity_main.xml",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/activity_main.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-46:/layout/fragment_camara.xml",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/fragment_camara.xml"
+        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/item_favorite_set.xml",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/item_favorite_set.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-46:/layout/fragment_set_detail.xml",
-        "source": "com.tfg.mhwcompanion.app-main-49:/layout/fragment_set_detail.xml"
+        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/item_camera_detection.xml",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/item_camera_detection.xml"
+    },
+    {
+        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/fragment_favorite_set_detail.xml",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_favorite_set_detail.xml"
     }
 ]
