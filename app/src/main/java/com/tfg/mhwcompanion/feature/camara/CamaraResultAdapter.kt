@@ -7,7 +7,7 @@ import com.tfg.mhwcompanion.R
 import com.tfg.mhwcompanion.databinding.ItemCameraDetectionBinding
 
 class CamaraResultAdapter(
-    private val items: List<DetectedArmorSlotUiModel>
+    private val items: List<DetectedArmorUiModel>
 ) : RecyclerView.Adapter<CamaraResultAdapter.CamaraResultViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CamaraResultViewHolder {
@@ -29,8 +29,11 @@ class CamaraResultAdapter(
         private val binding: ItemCameraDetectionBinding
     ) : RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(item: DetectedArmorSlotUiModel) {
-            binding.slotTitle.text = item.slotType.replaceFirstChar { char -> if (char.isLowerCase()) char.titlecase() else char.toString() }
+        fun bind(item: DetectedArmorUiModel) {
+            binding.slotTitle.text = binding.root.context.getString(
+                R.string.camara_result_class,
+                item.armorClassId
+            )
             binding.slotPrimary.text = item.armorName ?: item.primaryLabel
             binding.slotMeta.text = binding.root.context.getString(
                 R.string.camara_result_meta,
@@ -39,9 +42,11 @@ class CamaraResultAdapter(
                 item.defense ?: 0
             )
             binding.slotSet.text = item.armorSetName ?: binding.root.context.getString(R.string.armor_set_unknown)
-            binding.slotAlternatives.text = item.alternatives.ifEmpty {
-                listOf(binding.root.context.getString(R.string.camara_no_alternatives))
-            }.joinToString()
+            binding.slotAlternatives.text = if (item.alternatives.isEmpty()) {
+                binding.root.context.getString(R.string.camara_no_alternatives)
+            } else {
+                item.alternatives.joinToString()
+            }
         }
     }
 }

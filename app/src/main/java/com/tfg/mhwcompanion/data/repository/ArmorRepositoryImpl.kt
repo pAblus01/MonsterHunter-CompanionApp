@@ -20,6 +20,13 @@ class ArmorRepositoryImpl(
         }
     }
 
+    override suspend fun getArmorPieceById(id: Int, locale: String, limit: Int): Result<ArmorPiece> {
+        return getArmorPieces(locale = locale, limit = limit).mapCatching { pieces ->
+            pieces.firstOrNull { it.id == id }
+                ?: throw NoSuchElementException("No se encontró una armadura con id=$id")
+        }
+    }
+
     override suspend fun searchArmorPieces(
         locale: String,
         query: String,

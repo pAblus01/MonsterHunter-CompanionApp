@@ -4,24 +4,21 @@ import android.graphics.RectF
 import com.tfg.mhwcompanion.domain.model.ArmorPiece
 
 data class DetectorResult(
-    val slotType: String,
+    val armorClassId: Int,
+    val label: String,
     val boundingBox: RectF,
     val confidence: Float
 )
 
-data class ClassifierPrediction(
-    val label: String,
-    val confidence: Float
-)
-
-data class RecognizedArmorSlot(
-    val slotType: String,
+data class RecognizedArmorDetection(
+    val armorClassId: Int,
     val detectorConfidence: Float,
     val predictedArmor: ArmorPiece?,
-    val topPredictions: List<ClassifierPrediction>
+    val label: String,
+    val boundingBox: RectF? = null
 )
 
 data class RecognitionResult(
-    val slots: List<RecognizedArmorSlot>,
+    val detections: List<RecognizedArmorDetection>,
     val warningMessage: String? = null
 )

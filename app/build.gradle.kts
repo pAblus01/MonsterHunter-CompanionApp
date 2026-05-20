@@ -9,6 +9,10 @@ android {
     namespace = "com.tfg.mhwcompanion"
     compileSdk = 34
 
+    androidResources {
+        noCompress += "tflite"
+    }
+
     defaultConfig {
         applicationId = "com.tfg.mhwcompanion"
         minSdk = 26

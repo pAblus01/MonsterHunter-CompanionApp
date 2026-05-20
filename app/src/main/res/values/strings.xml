@@ -35,13 +35,14 @@
     <string name="set_detail_title">Detalle del set</string>
     <string name="set_detail_pieces_title">Piezas del conjunto</string>
     <string name="camara_title">Detección por cámara</string>
-    <string name="camara_description">Haz una foto o elige una imagen para detectar las piezas de armadura con el pipeline on-device.</string>
+    <string name="camara_description">Haz una foto o elige una imagen para detectar la clase de armadura que luego resolverá la API.</string>
     <string name="camara_permission_hint">La vista previa necesita permiso de camara. Si no lo concedes, aun puedes analizar una imagen desde galeria.</string>
     <string name="camara_capture_button">Hacer foto</string>
     <string name="camara_gallery_button">Elegir imagen</string>
     <string name="camara_preview_image">Imagen capturada</string>
-    <string name="camara_results_empty">Aun no hay resultados de detección.</string>
+    <string name="camara_results_empty">Aun no hay armadura detectada.</string>
     <string name="camara_ready">Listo para capturar una foto.</string>
+    <string name="camara_result_class">Clase %1$d</string>
     <string name="camara_result_meta">Confianza %1$d%% · Rareza %2$d · DEF %3$d</string>
     <string name="camara_no_alternatives">Sin alternativas</string>
     <string name="armor_rarity_format">R%1$d</string>

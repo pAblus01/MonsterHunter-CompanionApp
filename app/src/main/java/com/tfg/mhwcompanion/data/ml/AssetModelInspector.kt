@@ -6,19 +6,14 @@ class AssetModelInspector(
     private val context: Context
 ) {
     fun hasRequiredAssets(): Boolean {
-        return hasAsset(ModelAssetNames.DETECTOR_MODEL)
+        return missingAssetPaths().isEmpty()
     }
 
-    fun missingAssetPathsForSlots(slotTypes: Collection<String>): List<String> {
-        val expectedPaths = buildList {
-            add(ModelAssetNames.DETECTOR_MODEL)
-            slotTypes.forEach { slotType ->
-                add(ModelAssetNames.classifierModel(slotType))
-                add(ModelAssetNames.classifierLabels(slotType))
-            }
-        }
-
-        return expectedPaths.filterNot(::hasAsset)
+    fun missingAssetPaths(): List<String> {
+        return listOf(
+            ModelAssetNames.DETECTOR_MODEL,
+            ModelAssetNames.DETECTOR_LABELS
+        ).filterNot(::hasAsset)
     }
 
     private fun hasAsset(path: String): Boolean {

@@ -101,9 +101,9 @@ class CamaraFragment : Fragment() {
                     binding.statusText.text = state.errorMessage ?: state.statusMessage ?: getString(R.string.camara_ready)
                     binding.previewImage.isVisible = state.capturedImageUri != null
                     binding.previewImage.setImageURI(state.capturedImageUri)
-                    binding.emptyResultsText.isVisible = !state.isLoading && state.detectedSlots.isEmpty()
+                    binding.emptyResultsText.isVisible = !state.isLoading && state.detectedArmors.isEmpty()
                     binding.emptyResultsText.text = state.errorMessage ?: getString(R.string.camara_results_empty)
-                    binding.resultsRecyclerView.adapter = CamaraResultAdapter(state.detectedSlots)
+                    binding.resultsRecyclerView.adapter = CamaraResultAdapter(state.detectedArmors)
                 }
             }
         }

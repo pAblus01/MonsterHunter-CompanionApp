@@ -1,7 +1,7 @@
 package com.tfg.mhwcompanion.feature.camara
 
-data class DetectedArmorSlotUiModel(
-    val slotType: String,
+data class DetectedArmorUiModel(
+    val armorClassId: Int,
     val primaryLabel: String,
     val confidence: Float,
     val alternatives: List<String>,

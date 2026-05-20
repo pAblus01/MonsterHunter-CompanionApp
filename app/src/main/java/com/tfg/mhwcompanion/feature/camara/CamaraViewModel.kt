@@ -53,19 +53,19 @@ class CamaraViewModel(
                     _uiState.update {
                         it.copy(
                             isLoading = false,
-                            detectedSlots = result.slots.map { slot ->
-                                DetectedArmorSlotUiModel(
-                                    slotType = slot.slotType,
-                                    primaryLabel = slot.topPredictions.firstOrNull()?.label ?: slot.slotType,
-                                    confidence = slot.topPredictions.firstOrNull()?.confidence ?: slot.detectorConfidence,
-                                    alternatives = slot.topPredictions.drop(1).map { prediction -> prediction.label },
-                                    armorName = slot.predictedArmor?.name,
-                                    armorSetName = slot.predictedArmor?.setName,
-                                    defense = slot.predictedArmor?.defense,
-                                    rarity = slot.predictedArmor?.rarity
+                            detectedArmors = result.detections.map { detection ->
+                                DetectedArmorUiModel(
+                                    armorClassId = detection.armorClassId,
+                                    primaryLabel = detection.label,
+                                    confidence = detection.detectorConfidence,
+                                    alternatives = emptyList(),
+                                    armorName = detection.predictedArmor?.name,
+                                    armorSetName = detection.predictedArmor?.setName,
+                                    defense = detection.predictedArmor?.defense,
+                                    rarity = detection.predictedArmor?.rarity
                                 )
                             },
-                            statusMessage = result.warningMessage ?: if (result.slots.isEmpty()) "No se detectaron piezas." else "Analisis completado.",
+                            statusMessage = result.warningMessage ?: if (result.detections.isEmpty()) "No se detectó ninguna armadura." else "Análisis completado.",
                             errorMessage = null
                         )
                     }
@@ -74,7 +74,7 @@ class CamaraViewModel(
                     _uiState.update {
                         it.copy(
                             isLoading = false,
-                            detectedSlots = emptyList(),
+                            detectedArmors = emptyList(),
                             errorMessage = throwable.message ?: "No se pudo analizar la imagen.",
                             statusMessage = null
                         )

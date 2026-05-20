@@ -6,7 +6,7 @@ data class CamaraUiState(
     val isLoading: Boolean = false,
     val hasCameraPermission: Boolean = false,
     val capturedImageUri: Uri? = null,
-    val detectedSlots: List<DetectedArmorSlotUiModel> = emptyList(),
+    val detectedArmors: List<DetectedArmorUiModel> = emptyList(),
     val statusMessage: String? = null,
     val errorMessage: String? = null
 )
