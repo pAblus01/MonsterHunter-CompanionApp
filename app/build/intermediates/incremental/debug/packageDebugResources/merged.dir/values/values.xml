@@ -17,6 +17,7 @@
     <string name="armor_set_unknown">Set desconocido</string>
     <string name="armor_skills_empty">Sin habilidades destacadas</string>
     <string name="armor_slots_summary">Slots %1$s</string>
+    <string name="build_detail_title">Detalles de la Build</string>
     <string name="camara_capture_button">Hacer foto</string>
     <string name="camara_description">Haz una foto o elige una imagen para detectar la clase de armadura que luego resolverá la API.</string>
     <string name="camara_gallery_button">Elegir imagen</string>
@@ -54,8 +55,15 @@
     <string name="sets_favorites_title">Favoritos locales</string>
     <string name="sets_item_kinds">Tipos %1$s</string>
     <string name="sets_item_meta">%1$d piezas · Rareza media %2$d · DEF %3$d</string>
+    <string name="sets_load_button">Cargar Set</string>
+    <string name="sets_load_no_favorites">No hay sets guardados para cargar.</string>
+    <string name="sets_load_prompt_title">Cargar Set de Armadura</string>
     <string name="sets_picker_title">Elegir pieza: %1$s</string>
+    <string name="sets_save_button">Guardar Set</string>
+    <string name="sets_save_empty_build">No puedes guardar un set vacío.</string>
     <string name="sets_save_favorite">Guardar como favorito</string>
+    <string name="sets_save_prompt_message">Introduce un nombre para el set:</string>
+    <string name="sets_save_prompt_title">Guardar Set de Armadura</string>
     <string name="sets_select_arms">Seleccionar arms</string>
     <string name="sets_select_chest">Seleccionar chest</string>
     <string name="sets_select_head">Seleccionar head</string>
@@ -64,6 +72,7 @@
     <string name="sets_select_waist">Seleccionar waist</string>
     <string name="sets_tab">Sets</string>
     <string name="sets_title">Constructor de sets</string>
+    <string name="sets_view_details_button">Ver Detalles del Set</string>
     <style name="TextAppearance.MhwCompanion.Body" parent="TextAppearance.Material3.BodyLarge">
         <item name="android:textColor">@color/text_secondary</item>
     </style>

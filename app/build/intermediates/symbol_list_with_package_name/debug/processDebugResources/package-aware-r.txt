@@ -3223,6 +3223,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_setsFragment_to_buildDetailFragment
 id action_setsFragment_to_favoriteSetDetailFragment
 id action_setsFragment_to_setDetailFragment
 id action_text
@@ -3266,6 +3267,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id buildDetailFragment
+id build_pieces_recycler_view
+id build_title
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3368,7 +3372,6 @@ id fade
 id favoriteSetDetailFragment
 id favorite_meta
 id favorite_name
-id favorite_name_input
 id favorite_pieces
 id favorite_sets_recycler_view
 id favorite_skills
@@ -3437,6 +3440,7 @@ id line3
 id linear
 id listMode
 id list_item
+id load_set_button
 id locale
 id ltr
 id m3_side_sheet
@@ -3576,9 +3580,9 @@ id right_side
 id rounded
 id row_index_key
 id rtl
-id save_favorite_button
 id save_non_transition_alpha
 id save_overlay_view
+id save_set_button
 id sawtooth
 id scale
 id screen
@@ -3712,6 +3716,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id view_build_details_button
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3862,6 +3867,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_build_detail
 layout fragment_camara
 layout fragment_consulta
 layout fragment_favorite_set_detail
@@ -3980,6 +3986,7 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string build_detail_title
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action
@@ -4148,8 +4155,15 @@ string sets_favorite_name_hint
 string sets_favorites_title
 string sets_item_kinds
 string sets_item_meta
+string sets_load_button
+string sets_load_no_favorites
+string sets_load_prompt_title
 string sets_picker_title
+string sets_save_button
+string sets_save_empty_build
 string sets_save_favorite
+string sets_save_prompt_message
+string sets_save_prompt_title
 string sets_select_arms
 string sets_select_chest
 string sets_select_head
@@ -4158,6 +4172,7 @@ string sets_select_piece
 string sets_select_waist
 string sets_tab
 string sets_title
+string sets_view_details_button
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow

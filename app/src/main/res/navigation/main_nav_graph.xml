@@ -21,6 +21,10 @@
         <action
             android:id="@+id/action_setsFragment_to_favoriteSetDetailFragment"
             app:destination="@id/favoriteSetDetailFragment" />
+
+        <action
+            android:id="@+id/action_setsFragment_to_buildDetailFragment"
+            app:destination="@id/buildDetailFragment" />
     </fragment>
 
     <fragment
@@ -41,6 +45,15 @@
         <argument
             android:name="favoriteName"
             app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/buildDetailFragment"
+        android:name="com.tfg.mhwcompanion.feature.sets.BuildDetailFragment"
+        android:label="@string/build_detail_title">
+        <argument
+            android:name="armorPieceIds"
+            app:argType="integer[]" />
     </fragment>
 
     <fragment

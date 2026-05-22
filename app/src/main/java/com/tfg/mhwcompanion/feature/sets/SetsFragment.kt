@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
@@ -13,6 +14,9 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.textfield.TextInputEditText
+import com.google.android.material.textfield.TextInputLayout
+import com.tfg.mhwcompanion.R
 import com.tfg.mhwcompanion.data.repository.RepositoryProvider
 import com.tfg.mhwcompanion.databinding.FragmentSetsBinding
 import kotlinx.coroutines.launch
@@ -39,8 +43,8 @@ class SetsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.sectionTitle.text = getString(com.tfg.mhwcompanion.R.string.sets_title)
-        binding.sectionDescription.text = getString(com.tfg.mhwcompanion.R.string.sets_description)
+        binding.sectionTitle.text = getString(R.string.sets_title)
+        binding.sectionDescription.text = getString(R.string.sets_description)
         binding.setsRecyclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.favoriteSetsRecyclerView.layoutManager = LinearLayoutManager(requireContext())
         bindBuilderActions()
@@ -53,13 +57,63 @@ class SetsFragment : Fragment() {
         binding.armsSelector.setOnClickListener { showArmorPicker("arms") }
         binding.waistSelector.setOnClickListener { showArmorPicker("waist") }
         binding.legsSelector.setOnClickListener { showArmorPicker("legs") }
-        binding.saveFavoriteButton.setOnClickListener {
-            val favoriteName = binding.favoriteNameInput.text?.toString().orEmpty().trim()
-            if (favoriteName.isNotBlank()) {
-                viewModel.saveCurrentBuildAsFavorite(favoriteName)
-                binding.favoriteNameInput.setText("")
+        
+        binding.saveSetButton.setOnClickListener {
+            showSaveSetDialog()
+        }
+        
+        binding.loadSetButton.setOnClickListener {
+            showLoadSetDialog()
+        }
+
+        binding.viewBuildDetailsButton.setOnClickListener {
+            val selectedIds = viewModel.uiState.value.buildSlots
+                .mapNotNull { it.selectedPiece?.id }
+                .toIntArray()
+            
+            if (selectedIds.isNotEmpty()) {
+                val action = SetsFragmentDirections.actionSetsFragmentToBuildDetailFragment(selectedIds)
+                findNavController().navigate(action)
             }
         }
+    }
+
+    private fun showSaveSetDialog() {
+        val context = requireContext()
+        val textInputLayout = TextInputLayout(context).apply {
+            setPadding(48, 16, 48, 0)
+            hint = getString(R.string.sets_save_prompt_message)
+        }
+        val input = TextInputEditText(context)
+        textInputLayout.addView(input)
+
+        AlertDialog.Builder(context)
+            .setTitle(R.string.sets_save_prompt_title)
+            .setView(textInputLayout)
+            .setPositiveButton(R.string.favorite_rename_confirm) { _, _ ->
+                val name = input.text?.toString().orEmpty().trim()
+                if (name.isNotBlank()) {
+                    viewModel.saveCurrentBuildAsFavorite(name)
+                }
+            }
+            .setNegativeButton(android.R.string.cancel, null)
+            .show()
+    }
+
+    private fun showLoadSetDialog() {
+        val favorites = viewModel.uiState.value.favoriteSets
+        if (favorites.isEmpty()) {
+            Toast.makeText(requireContext(), R.string.sets_load_no_favorites, Toast.LENGTH_SHORT).show()
+            return
+        }
+
+        val names = favorites.map { it.name }.toTypedArray()
+        AlertDialog.Builder(requireContext())
+            .setTitle(R.string.sets_load_prompt_title)
+            .setItems(names) { _, which ->
+                viewModel.applyFavoriteToBuild(favorites[which])
+            }
+            .show()
     }
 
     private fun showArmorPicker(type: String) {
@@ -68,7 +122,7 @@ class SetsFragment : Fragment() {
 
         val labels = options.map { option -> "${option.name} · R${option.rarity}" }.toTypedArray()
         AlertDialog.Builder(requireContext())
-            .setTitle(getString(com.tfg.mhwcompanion.R.string.sets_picker_title, type))
+            .setTitle(getString(R.string.sets_picker_title, type))
             .setItems(labels) { _, which ->
                 viewModel.selectArmorPiece(type, options[which])
             }
@@ -86,8 +140,9 @@ class SetsFragment : Fragment() {
                         findNavController().navigate(action)
                     }
                     binding.emptyStateText.text = state.errorMessage
-                        ?: getString(com.tfg.mhwcompanion.R.string.sets_empty_state)
+                        ?: getString(R.string.sets_empty_state)
                     binding.emptyStateText.isVisible = !state.isLoading && state.sets.isEmpty()
+                    
                     binding.favoriteSetsRecyclerView.adapter = FavoriteArmorSetAdapter(
                         state.favoriteSets,
                         onOpen = { favorite ->
@@ -98,6 +153,11 @@ class SetsFragment : Fragment() {
                         onEdit = { favorite -> showRenameDialog(favorite.name) },
                         onDelete = { favorite -> viewModel.deleteFavorite(favorite.name) }
                     )
+
+                    binding.saveSetButton.isEnabled = !state.isBuildEmpty
+                    binding.loadSetButton.isEnabled = state.favoriteSets.isNotEmpty()
+                    binding.viewBuildDetailsButton.isEnabled = !state.isBuildEmpty
+
                     renderSelectedBuild(state)
                 }
             }
@@ -105,14 +165,14 @@ class SetsFragment : Fragment() {
     }
 
     private fun showRenameDialog(currentName: String) {
-        val input = com.google.android.material.textfield.TextInputEditText(requireContext()).apply {
+        val input = TextInputEditText(requireContext()).apply {
             setText(currentName)
         }
 
         AlertDialog.Builder(requireContext())
-            .setTitle(getString(com.tfg.mhwcompanion.R.string.favorite_rename_title))
+            .setTitle(getString(R.string.favorite_rename_title))
             .setView(input)
-            .setPositiveButton(com.tfg.mhwcompanion.R.string.favorite_rename_confirm) { _, _ ->
+            .setPositiveButton(R.string.favorite_rename_confirm) { _, _ ->
                 val updatedName = input.text?.toString().orEmpty().trim()
                 if (updatedName.isNotBlank()) {
                     viewModel.renameFavorite(currentName, updatedName)
@@ -123,22 +183,23 @@ class SetsFragment : Fragment() {
     }
 
     private fun renderSelectedBuild(state: SetsUiState) {
-        binding.headSelector.text = state.buildSlots.firstOrNull { it.type == "head" }?.selectedPiece?.name
-            ?: getString(com.tfg.mhwcompanion.R.string.sets_select_piece, "Head")
-        binding.chestSelector.text = state.buildSlots.firstOrNull { it.type == "chest" }?.selectedPiece?.name
-            ?: getString(com.tfg.mhwcompanion.R.string.sets_select_piece, "Chest")
-        binding.armsSelector.text = state.buildSlots.firstOrNull { it.type == "arms" }?.selectedPiece?.name
-            ?: getString(com.tfg.mhwcompanion.R.string.sets_select_piece, "Arms")
-        binding.waistSelector.text = state.buildSlots.firstOrNull { it.type == "waist" }?.selectedPiece?.name
-            ?: getString(com.tfg.mhwcompanion.R.string.sets_select_piece, "Waist")
-        binding.legsSelector.text = state.buildSlots.firstOrNull { it.type == "legs" }?.selectedPiece?.name
-            ?: getString(com.tfg.mhwcompanion.R.string.sets_select_piece, "Legs")
+        binding.headSelector.text = state.buildSlots.find { it.type == "head" }?.selectedPiece?.name
+            ?: getString(R.string.sets_select_piece, "Head")
+        binding.chestSelector.text = state.buildSlots.find { it.type == "chest" }?.selectedPiece?.name
+            ?: getString(R.string.sets_select_piece, "Chest")
+        binding.armsSelector.text = state.buildSlots.find { it.type == "arms" }?.selectedPiece?.name
+            ?: getString(R.string.sets_select_piece, "Arms")
+        binding.waistSelector.text = state.buildSlots.find { it.type == "waist" }?.selectedPiece?.name
+            ?: getString(R.string.sets_select_piece, "Waist")
+        binding.legsSelector.text = state.buildSlots.find { it.type == "legs" }?.selectedPiece?.name
+            ?: getString(R.string.sets_select_piece, "Legs")
+        
         binding.currentBuildStats.text = getString(
-            com.tfg.mhwcompanion.R.string.sets_current_build_stats,
+            R.string.sets_current_build_stats,
             state.buildDefense,
             state.buildAverageRarity,
             state.buildSkills.joinToString(separator = " • ").ifBlank {
-                getString(com.tfg.mhwcompanion.R.string.armor_skills_empty)
+                getString(R.string.armor_skills_empty)
             }
         )
     }

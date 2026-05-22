@@ -16,6 +16,7 @@ drawable bg_armor_type_chip
 drawable bg_rarity_pill
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id action_setsFragment_to_buildDetailFragment
 id action_setsFragment_to_favoriteSetDetailFragment
 id action_setsFragment_to_setDetailFragment
 id armor_name
@@ -27,6 +28,9 @@ id armor_slots
 id armor_type
 id arms_selector
 id bottom_navigation
+id buildDetailFragment
+id build_pieces_recycler_view
+id build_title
 id camaraFragment
 id camera_preview
 id capture_button
@@ -42,7 +46,6 @@ id error_text
 id favoriteSetDetailFragment
 id favorite_meta
 id favorite_name
-id favorite_name_input
 id favorite_pieces
 id favorite_sets_recycler_view
 id favorite_skills
@@ -51,6 +54,7 @@ id gallery_button
 id head_selector
 id kind_chip_group
 id legs_selector
+id load_set_button
 id main_nav_graph
 id nav_host_fragment
 id permission_hint
@@ -58,7 +62,7 @@ id pieces_recycler_view
 id preview_image
 id progress_bar
 id results_recycler_view
-id save_favorite_button
+id save_set_button
 id search_input_layout
 id section_description
 id section_title
@@ -76,8 +80,10 @@ id slot_primary
 id slot_set
 id slot_title
 id status_text
+id view_build_details_button
 id waist_selector
 layout activity_main
+layout fragment_build_detail
 layout fragment_camara
 layout fragment_consulta
 layout fragment_favorite_set_detail
@@ -97,6 +103,7 @@ string armor_rarity_format
 string armor_set_unknown
 string armor_skills_empty
 string armor_slots_summary
+string build_detail_title
 string camara_capture_button
 string camara_description
 string camara_gallery_button
@@ -134,8 +141,15 @@ string sets_favorite_name_hint
 string sets_favorites_title
 string sets_item_kinds
 string sets_item_meta
+string sets_load_button
+string sets_load_no_favorites
+string sets_load_prompt_title
 string sets_picker_title
+string sets_save_button
+string sets_save_empty_build
 string sets_save_favorite
+string sets_save_prompt_message
+string sets_save_prompt_title
 string sets_select_arms
 string sets_select_chest
 string sets_select_head
@@ -144,6 +158,7 @@ string sets_select_piece
 string sets_select_waist
 string sets_tab
 string sets_title
+string sets_view_details_button
 style TextAppearance.MhwCompanion.Body
 style TextAppearance.MhwCompanion.Caption
 style TextAppearance.MhwCompanion.Headline

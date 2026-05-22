@@ -12,5 +12,6 @@ data class SetsUiState(
     val buildDefense: Int = 0,
     val buildAverageRarity: Int = 0,
     val buildSkills: List<String> = emptyList(),
+    val isBuildEmpty: Boolean = true,
     val errorMessage: String? = null
 )

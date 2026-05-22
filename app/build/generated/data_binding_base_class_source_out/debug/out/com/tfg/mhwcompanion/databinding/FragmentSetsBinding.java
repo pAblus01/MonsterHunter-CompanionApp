@@ -13,7 +13,6 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import com.google.android.material.textfield.TextInputEditText;
 import com.tfg.mhwcompanion.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -36,9 +35,6 @@ public final class FragmentSetsBinding implements ViewBinding {
   public final TextView emptyStateText;
 
   @NonNull
-  public final TextInputEditText favoriteNameInput;
-
-  @NonNull
   public final RecyclerView favoriteSetsRecyclerView;
 
   @NonNull
@@ -48,10 +44,13 @@ public final class FragmentSetsBinding implements ViewBinding {
   public final Button legsSelector;
 
   @NonNull
+  public final Button loadSetButton;
+
+  @NonNull
   public final ProgressBar progressBar;
 
   @NonNull
-  public final Button saveFavoriteButton;
+  public final Button saveSetButton;
 
   @NonNull
   public final TextView sectionDescription;
@@ -63,30 +62,34 @@ public final class FragmentSetsBinding implements ViewBinding {
   public final RecyclerView setsRecyclerView;
 
   @NonNull
+  public final Button viewBuildDetailsButton;
+
+  @NonNull
   public final Button waistSelector;
 
   private FragmentSetsBinding(@NonNull LinearLayout rootView, @NonNull Button armsSelector,
       @NonNull Button chestSelector, @NonNull TextView currentBuildStats,
-      @NonNull TextView emptyStateText, @NonNull TextInputEditText favoriteNameInput,
-      @NonNull RecyclerView favoriteSetsRecyclerView, @NonNull Button headSelector,
-      @NonNull Button legsSelector, @NonNull ProgressBar progressBar,
-      @NonNull Button saveFavoriteButton, @NonNull TextView sectionDescription,
-      @NonNull TextView sectionTitle, @NonNull RecyclerView setsRecyclerView,
+      @NonNull TextView emptyStateText, @NonNull RecyclerView favoriteSetsRecyclerView,
+      @NonNull Button headSelector, @NonNull Button legsSelector, @NonNull Button loadSetButton,
+      @NonNull ProgressBar progressBar, @NonNull Button saveSetButton,
+      @NonNull TextView sectionDescription, @NonNull TextView sectionTitle,
+      @NonNull RecyclerView setsRecyclerView, @NonNull Button viewBuildDetailsButton,
       @NonNull Button waistSelector) {
     this.rootView = rootView;
     this.armsSelector = armsSelector;
     this.chestSelector = chestSelector;
     this.currentBuildStats = currentBuildStats;
     this.emptyStateText = emptyStateText;
-    this.favoriteNameInput = favoriteNameInput;
     this.favoriteSetsRecyclerView = favoriteSetsRecyclerView;
     this.headSelector = headSelector;
     this.legsSelector = legsSelector;
+    this.loadSetButton = loadSetButton;
     this.progressBar = progressBar;
-    this.saveFavoriteButton = saveFavoriteButton;
+    this.saveSetButton = saveSetButton;
     this.sectionDescription = sectionDescription;
     this.sectionTitle = sectionTitle;
     this.setsRecyclerView = setsRecyclerView;
+    this.viewBuildDetailsButton = viewBuildDetailsButton;
     this.waistSelector = waistSelector;
   }
 
@@ -141,12 +144,6 @@ public final class FragmentSetsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.favorite_name_input;
-      TextInputEditText favoriteNameInput = ViewBindings.findChildViewById(rootView, id);
-      if (favoriteNameInput == null) {
-        break missingId;
-      }
-
       id = R.id.favorite_sets_recycler_view;
       RecyclerView favoriteSetsRecyclerView = ViewBindings.findChildViewById(rootView, id);
       if (favoriteSetsRecyclerView == null) {
@@ -165,15 +162,21 @@ public final class FragmentSetsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.load_set_button;
+      Button loadSetButton = ViewBindings.findChildViewById(rootView, id);
+      if (loadSetButton == null) {
+        break missingId;
+      }
+
       id = R.id.progress_bar;
       ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
       if (progressBar == null) {
         break missingId;
       }
 
-      id = R.id.save_favorite_button;
-      Button saveFavoriteButton = ViewBindings.findChildViewById(rootView, id);
-      if (saveFavoriteButton == null) {
+      id = R.id.save_set_button;
+      Button saveSetButton = ViewBindings.findChildViewById(rootView, id);
+      if (saveSetButton == null) {
         break missingId;
       }
 
@@ -195,6 +198,12 @@ public final class FragmentSetsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.view_build_details_button;
+      Button viewBuildDetailsButton = ViewBindings.findChildViewById(rootView, id);
+      if (viewBuildDetailsButton == null) {
+        break missingId;
+      }
+
       id = R.id.waist_selector;
       Button waistSelector = ViewBindings.findChildViewById(rootView, id);
       if (waistSelector == null) {
@@ -202,9 +211,9 @@ public final class FragmentSetsBinding implements ViewBinding {
       }
 
       return new FragmentSetsBinding((LinearLayout) rootView, armsSelector, chestSelector,
-          currentBuildStats, emptyStateText, favoriteNameInput, favoriteSetsRecyclerView,
-          headSelector, legsSelector, progressBar, saveFavoriteButton, sectionDescription,
-          sectionTitle, setsRecyclerView, waistSelector);
+          currentBuildStats, emptyStateText, favoriteSetsRecyclerView, headSelector, legsSelector,
+          loadSetButton, progressBar, saveSetButton, sectionDescription, sectionTitle,
+          setsRecyclerView, viewBuildDetailsButton, waistSelector);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

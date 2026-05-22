@@ -52,5 +52,14 @@
     <string name="armor_set_unknown">Set desconocido</string>
     <string name="consulta_empty_state">No hay piezas para mostrar.</string>
     <string name="consulta_error_state">No se pudo cargar el catálogo de armaduras.</string>
-</resources>
 
+    <string name="sets_save_button">Guardar Set</string>
+    <string name="sets_load_button">Cargar Set</string>
+    <string name="sets_view_details_button">Ver Detalles del Set</string>
+    <string name="sets_save_prompt_title">Guardar Set de Armadura</string>
+    <string name="sets_save_prompt_message">Introduce un nombre para el set:</string>
+    <string name="sets_load_prompt_title">Cargar Set de Armadura</string>
+    <string name="sets_load_no_favorites">No hay sets guardados para cargar.</string>
+    <string name="sets_save_empty_build">No puedes guardar un set vacío.</string>
+    <string name="build_detail_title">Detalles de la Build</string>
+</resources>

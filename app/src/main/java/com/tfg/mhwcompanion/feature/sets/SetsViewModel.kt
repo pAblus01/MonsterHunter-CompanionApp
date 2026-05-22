@@ -75,6 +75,7 @@ class SetsViewModel(
                                 )
                             },
                             favoriteSets = favoriteSets,
+                            isBuildEmpty = true,
                             errorMessage = null
                         )
                     }
@@ -106,7 +107,8 @@ class SetsViewModel(
                 buildSlots = updatedSlots,
                 buildDefense = stats.defense,
                 buildAverageRarity = stats.averageRarity,
-                buildSkills = stats.skills
+                buildSkills = stats.skills,
+                isBuildEmpty = stats.isEmpty
             )
         }
     }
@@ -126,7 +128,8 @@ class SetsViewModel(
                 buildSlots = updatedSlots,
                 buildDefense = stats.defense,
                 buildAverageRarity = stats.averageRarity,
-                buildSkills = stats.skills
+                buildSkills = stats.skills,
+                isBuildEmpty = stats.isEmpty
             )
         }
     }
@@ -148,7 +151,8 @@ class SetsViewModel(
     private data class BuildStats(
         val defense: Int,
         val averageRarity: Int,
-        val skills: List<String>
+        val skills: List<String>,
+        val isEmpty: Boolean
     )
 
     private fun buildStats(buildSlots: List<BuildSlotUiModel>): BuildStats {
@@ -169,7 +173,7 @@ class SetsViewModel(
             .take(4)
             .map { it.key }
 
-        return BuildStats(defense, averageRarity, skills)
+        return BuildStats(defense, averageRarity, skills, selectedPieces.isEmpty())
     }
 
     fun saveCurrentBuildAsFavorite(name: String) {

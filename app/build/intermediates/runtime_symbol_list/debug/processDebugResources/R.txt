@@ -3222,6 +3222,7 @@ int id action_menu_presenter 0x7f08003f
 int id action_mode_bar 0x7f080040
 int id action_mode_bar_stub 0x7f080041
 int id action_mode_close_button 0x7f080042
+int id action_setsFragment_to_buildDetailFragment 0x7f080240
 int id action_setsFragment_to_favoriteSetDetailFragment 0x7f080043
 int id action_setsFragment_to_setDetailFragment 0x7f080044
 int id action_text 0x7f080045
@@ -3265,6 +3266,9 @@ int id bounce 0x7f08006a
 int id bounceBoth 0x7f08006b
 int id bounceEnd 0x7f08006c
 int id bounceStart 0x7f08006d
+int id buildDetailFragment 0x7f080241
+int id build_pieces_recycler_view 0x7f080242
+int id build_title 0x7f080243
 int id buttonPanel 0x7f08006e
 int id cache_measures 0x7f08006f
 int id callMeasure 0x7f080070
@@ -3367,7 +3371,6 @@ int id fade 0x7f0800d0
 int id favoriteSetDetailFragment 0x7f0800d1
 int id favorite_meta 0x7f0800d2
 int id favorite_name 0x7f0800d3
-int id favorite_name_input 0x7f0800d4
 int id favorite_pieces 0x7f0800d5
 int id favorite_sets_recycler_view 0x7f0800d6
 int id favorite_skills 0x7f0800d7
@@ -3436,6 +3439,7 @@ int id line3 0x7f080115
 int id linear 0x7f080116
 int id listMode 0x7f080117
 int id list_item 0x7f080118
+int id load_set_button 0x7f08023e
 int id locale 0x7f080119
 int id ltr 0x7f08011a
 int id m3_side_sheet 0x7f08011b
@@ -3575,9 +3579,9 @@ int id right_side 0x7f0801a0
 int id rounded 0x7f0801a1
 int id row_index_key 0x7f0801a2
 int id rtl 0x7f0801a3
-int id save_favorite_button 0x7f0801a4
 int id save_non_transition_alpha 0x7f0801a5
 int id save_overlay_view 0x7f0801a6
+int id save_set_button 0x7f08023f
 int id sawtooth 0x7f0801a7
 int id scale 0x7f0801a8
 int id screen 0x7f0801a9
@@ -3711,6 +3715,7 @@ int id unlabeled 0x7f080228
 int id up 0x7f080229
 int id useLogo 0x7f08022a
 int id vertical_only 0x7f08022b
+int id view_build_details_button 0x7f080244
 int id view_offset_helper 0x7f08022c
 int id view_transition 0x7f08022d
 int id view_tree_lifecycle_owner 0x7f08022e
@@ -3861,6 +3866,7 @@ int layout design_navigation_menu 0x7f0b0029
 int layout design_navigation_menu_item 0x7f0b002a
 int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
+int layout fragment_build_detail 0x7f0b0075
 int layout fragment_camara 0x7f0b002d
 int layout fragment_consulta 0x7f0b002e
 int layout fragment_favorite_set_detail 0x7f0b002f
@@ -3979,6 +3985,7 @@ int string bottomsheet_action_expand 0x7f110025
 int string bottomsheet_action_expand_halfway 0x7f110026
 int string bottomsheet_drag_handle_clicked 0x7f110027
 int string bottomsheet_drag_handle_content_description 0x7f110028
+int string build_detail_title 0x7f1100e5
 int string call_notification_answer_action 0x7f110029
 int string call_notification_answer_video_action 0x7f11002a
 int string call_notification_decline_action 0x7f11002b
@@ -4147,8 +4154,15 @@ int string sets_favorite_name_hint 0x7f1100cd
 int string sets_favorites_title 0x7f1100ce
 int string sets_item_kinds 0x7f1100cf
 int string sets_item_meta 0x7f1100d0
+int string sets_load_button 0x7f1100de
+int string sets_load_no_favorites 0x7f1100df
+int string sets_load_prompt_title 0x7f1100e0
 int string sets_picker_title 0x7f1100d1
+int string sets_save_button 0x7f1100e1
+int string sets_save_empty_build 0x7f1100e2
 int string sets_save_favorite 0x7f1100d2
+int string sets_save_prompt_message 0x7f1100e3
+int string sets_save_prompt_title 0x7f1100e4
 int string sets_select_arms 0x7f1100d3
 int string sets_select_chest 0x7f1100d4
 int string sets_select_head 0x7f1100d5
@@ -4157,6 +4171,7 @@ int string sets_select_piece 0x7f1100d7
 int string sets_select_waist 0x7f1100d8
 int string sets_tab 0x7f1100d9
 int string sets_title 0x7f1100da
+int string sets_view_details_button 0x7f1100e6
 int string side_sheet_accessibility_pane_title 0x7f1100db
 int string side_sheet_behavior 0x7f1100dc
 int string status_bar_notification_info_overflow 0x7f1100dd
