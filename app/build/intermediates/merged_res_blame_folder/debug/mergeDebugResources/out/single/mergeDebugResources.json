@@ -16,12 +16,12 @@
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\item_armor_piece.xml"
     },
     {
-        "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\layout_item_camera_detection.xml.flat",
-        "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\item_camera_detection.xml"
-    },
-    {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\layout_item_camera_detection.xml.flat",
+        "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\item_camera_detection.xml"
     },
     {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\layout_fragment_sets.xml.flat",
@@ -44,16 +44,12 @@
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\drawable\\bg_rarity_pill.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-debug-53:/navigation_main_nav_graph.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-55:/navigation/main_nav_graph.xml"
-    },
-    {
-        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_fragment_sets.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_sets.xml"
-    },
-    {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_fragment_consulta.xml.flat",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_consulta.xml"
     },
     {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\layout_item_favorite_set.xml.flat",
@@ -68,16 +64,20 @@
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\fragment_favorite_set_detail.xml"
     },
     {
+        "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\layout_fragment_build_detail.xml.flat",
+        "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\fragment_build_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\xml_file_paths.xml.flat",
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\xml\\file_paths.xml"
     },
     {
-        "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\menu_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\menu\\bottom_nav_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\navigation_main_nav_graph.xml.flat",
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\navigation\\main_nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\menu\\bottom_nav_menu.xml"
     },
     {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -94,9 +94,5 @@
     {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-debug-53:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.tfg.mhwcompanion.app-debug-53:/layout_fragment_build_detail.xml.flat",
-        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_build_detail.xml"
     }
 ]

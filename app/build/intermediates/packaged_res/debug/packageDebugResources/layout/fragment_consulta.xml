@@ -26,28 +26,7 @@
         app:cardBackgroundColor="@color/surface_card"
         app:cardCornerRadius="20dp"
         app:strokeColor="@color/primary_amber"
-        app:strokeWidth="1dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="20dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Catálogo remoto"
-                android:textAppearance="@style/TextAppearance.MhwCompanion.Title" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="Primer listado real consumido desde Wilds MHDB con Retrofit y Moshi."
-                android:textAppearance="@style/TextAppearance.MhwCompanion.Body" />
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
+        app:strokeWidth="1dp"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/search_input_layout"

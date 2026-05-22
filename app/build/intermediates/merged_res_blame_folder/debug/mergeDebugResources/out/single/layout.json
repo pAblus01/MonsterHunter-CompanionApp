@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-mergeDebugResources-52:\\layout\\fragment_build_detail.xml",
+        "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\fragment_build_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-mergeDebugResources-52:\\layout\\item_camera_detection.xml",
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\item_camera_detection.xml"
     },
@@ -12,6 +16,10 @@
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\fragment_camara.xml"
     },
     {
+        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/fragment_consulta.xml",
+        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_consulta.xml"
+    },
+    {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-mergeDebugResources-52:\\layout\\fragment_consulta.xml",
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\fragment_consulta.xml"
     },
@@ -20,16 +28,8 @@
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\fragment_favorite_set_detail.xml"
     },
     {
-        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/fragment_build_detail.xml",
-        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_build_detail.xml"
-    },
-    {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-mergeDebugResources-52:\\layout\\item_armor_set_summary.xml",
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\item_armor_set_summary.xml"
-    },
-    {
-        "merged": "com.tfg.mhwcompanion.app-mergeDebugResources-52:/layout/fragment_sets.xml",
-        "source": "com.tfg.mhwcompanion.app-main-55:/layout/fragment_sets.xml"
     },
     {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-mergeDebugResources-52:\\layout\\item_armor_piece.xml",
@@ -40,11 +40,11 @@
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-mergeDebugResources-52:\\layout\\fragment_set_detail.xml",
-        "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\fragment_set_detail.xml"
-    },
-    {
         "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-mergeDebugResources-52:\\layout\\fragment_sets.xml",
         "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\fragment_sets.xml"
+    },
+    {
+        "merged": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-mergeDebugResources-52:\\layout\\fragment_set_detail.xml",
+        "source": "C:\\Users\\terra\\.gradle\\daemon\\8.7\\com.tfg.mhwcompanion.app-main-55:\\layout\\fragment_set_detail.xml"
     }
 ]
